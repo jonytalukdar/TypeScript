@@ -53,3 +53,22 @@ const objFriend = {
 };
 objFriend.age = 62;
 objFriend.name = 'jerry talukdar';
+let messi = {
+    name: 'messy',
+    club: 'barcelona',
+    salary: 4500000,
+    wife: 'someName',
+    isPlayed: true,
+};
+let ronaldo = {
+    name: 'Ronaldo',
+    club: 'Real Madrid',
+    salary: 4000000,
+    isPlayed: true,
+};
+function getBonus(player) {
+    return player.salary * 0.1;
+}
+const poorPlayer = { salary: 120000 };
+const getSalaryBonus = getBonus(messi);
+console.log(getSalaryBonus);
