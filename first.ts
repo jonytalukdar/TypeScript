@@ -20,3 +20,17 @@ function fullName(firstName: string, lastName: string) {
 
 const user: string = fullName('Martin ', 'keleabba');
 console.log(user);
+
+function doubleIt(num: number): void {
+  const result = num * 2;
+  console.log(result);
+}
+const output = doubleIt(12);
+console.log(output);
+
+let multiplyTwo: (x: number, y: number) => number;
+multiplyTwo = (x, y) => x * y;
+console.log(multiplyTwo(12, 12));
+
+const multiply = (x: number, y: number): number => x * y;
+console.log(multiply(12, 12));

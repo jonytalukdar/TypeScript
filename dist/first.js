@@ -15,3 +15,14 @@ function fullName(firstName, lastName) {
 }
 const user = fullName('Martin ', 'keleabba');
 console.log(user);
+function doubleIt(num) {
+    const result = num * 2;
+    console.log(result);
+}
+const output = doubleIt(12);
+console.log(output);
+let multiplyTwo;
+multiplyTwo = (x, y) => x * y;
+console.log(multiplyTwo(12, 12));
+const multiply = (x, y) => x * y;
+console.log(multiply(12, 12));
